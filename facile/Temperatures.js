@@ -16,7 +16,7 @@ if (temps) {
     if (Math.abs(min) > Math.abs(nbrTempArray[i])) {
       min = nbrTempArray[i];
     } else if (
-      Math.abs(min) == Math.abs(nbrTempArray[i]) &&
+      Math.abs(min) == Math.abs(nbrTempArray[i]) && // abs donne La valeur absolue du nombre passé en argument.
       min < nbrTempArray[i]
     ) {
       min = nbrTempArray[i];
